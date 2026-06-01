@@ -1,0 +1,5 @@
+tasks
+
+[] research
+[] build
+[] finalize
