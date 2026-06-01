@@ -1,0 +1,2 @@
+# stopify
+#noMoreSpotify
