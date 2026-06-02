@@ -1,8 +1,16 @@
 Tasks
 
 [] research
+    [] build test app using flutter
+    [] find suitable libraries/etc. for music playing an background playing
 [] build
+    [] funtionality
+    [] testing
+    [] ui
 [] finalize
+    [] logo
+    [] animations/transitions
+    [] extra shippable features
 
 
 
@@ -55,7 +63,7 @@ HOW TO MAKE
 
 TECH TO USE
 
-- main app
+- main app ------> FINALIZED "FLUTTER"
     - html/css/js?
     - react/other framework?
     - for phone (andriod)? kotlin/react native/?
@@ -65,6 +73,6 @@ TECH TO USE
 * don't know any frameworks
 * electron is bad (apparently)?
 
-make other app first?????? then make this????
+make other app first?????? then make this???? ----> trial other app required for setup mistkes + some prev exp
 
 --------------------------
