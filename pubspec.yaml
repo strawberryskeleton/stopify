@@ -1,5 +1,5 @@
 name: stopify
-description: "A new Flutter project."
+description: "Replacement for Spotify, but focusing on offline music listening"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -33,7 +33,13 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.8
+  # cupertino_icons: ^1.0.8
+  just_audio: ^0.10.5   #for local song playback
+  audio_service: ^0.18.17   #integrate with OS lock screen and player widgets
+  permission_handler: ^12.0.3   #local storage write permissions
+  path_provider: ^2.1.6   #finding downloads folder
+  #youtube_explode_dart: ^2.3.2  #Searches & scrapes audio streams
+  #hive_flutter: ^1.1.0      #Local database for offline playlist data
 
 dev_dependencies:
   flutter_test:

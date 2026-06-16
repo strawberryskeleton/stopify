@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:stopify/core/theme/app_theme.dart';
+import './core/theme/app_theme.dart';
+import 'package:permission_handler/permission_handler.dart';
 
 void main() {
   runApp(const MyApp());
