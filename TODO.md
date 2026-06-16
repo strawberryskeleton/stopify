@@ -1,8 +1,9 @@
 Tasks
 
 [] research
+    [] build test app using python's tkinter library
     [] build test app using flutter
-    [] find suitable libraries/etc. for music playing an background playing
+    [] find suitable libraries/etc. for music playing and background playing
 [] build
     [] funtionality
     [] testing
@@ -11,7 +12,6 @@ Tasks
     [] logo
     [] animations/transitions
     [] extra shippable features
-
 
 
 
@@ -29,6 +29,7 @@ BRAIN DUMP
 - permissions for reading?
 - desktop app/webapp? for phone? for mac?
 - credits page? github only/in app also?
+- need to have a database connection too to store the list of downloaded songs.
 
 -----------------
 
@@ -68,11 +69,12 @@ TECH TO USE
     - react/other framework?
     - for phone (andriod)? kotlin/react native/?
     - rust?
+    - python tkinter
 
 * know some JS already
 * don't know any frameworks
 * electron is bad (apparently)?
 
-make other app first?????? then make this???? ----> trial other app required for setup mistkes + some prev exp
+make other app first?????? then make this???? ----> trial other app required for setup mistakes + some prev exp
 
 --------------------------
