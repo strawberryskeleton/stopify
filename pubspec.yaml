@@ -39,7 +39,7 @@ dependencies:
   permission_handler: ^12.0.3   #local storage write permissions
   path_provider: ^2.1.6   #finding downloads folder
   #youtube_explode_dart: ^2.3.2  #Searches & scrapes audio streams
-  #hive_flutter: ^1.1.0      #Local database for offline playlist data
+  hive_flutter: ^1.1.0      #Local database for offline playlist data
 
 dev_dependencies:
   flutter_test:
