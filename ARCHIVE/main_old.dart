@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
-// import 'package:hive_flutter/hive_flutter.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 // import 'package:permission_handler/permission_handler.dart';
+import '../ARCHIVE/features/home/home_page.dart';
 
 void main() async {
 
-  // WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
 
-  // await Hive.initFlutter();
-  // // await Hive.openBox('music_box');
+  await Hive.initFlutter();
+  // await Hive.openBox('music_box');
 
-  // // await _initializeStoragePermissions();
+  // await _initializeStoragePermissions();
 
 
   runApp(const MyApp());
@@ -31,6 +32,15 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      title: 'Stopify',
+      // theme: AppTheme.darkThemeMode,
+      home: HomePage(),
+      // home: const Scaffold(
+      //   body: Center(
+      //     child: Text('storage permissions requested!'),
+      //   ),
+      // ),
+    );
   }
 }
